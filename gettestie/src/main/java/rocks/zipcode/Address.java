@@ -1,4 +1,4 @@
-package gettestie.src.main.java.rocks.zipcode;
+package rocks.zipcode;
 
 public class Address {
     private String street;
@@ -10,6 +10,7 @@ public class Address {
      * Construct an Address without country
      */
     public Address(String street, String town, String postCode) {
+
         this(street, town, postCode, "");
     }
 
